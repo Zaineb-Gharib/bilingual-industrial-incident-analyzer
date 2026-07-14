@@ -279,6 +279,17 @@ scan on pushes and pull requests.
 - The OpenAI-compatible adapter uses JSON-object mode plus local strict validation; provider
   compatibility can vary by endpoint and model.
 
+## Future work
+
+- Obtain independent bilingual and domain-expert review for the 40 translation pairs and
+  blinded output rubric.
+- Run the two-call live-provider safety check, document observed usage, estimate cost from
+  current pricing, and request approval before the full held-out experiment.
+- Compare additional provider adapters only after adding provider-specific contract tests.
+- Expand the synthetic corpus and test robustness to longer, noisier, and mixed-language
+  reports without weakening the evidence-grounding rules.
+- Add calibrated confidence analysis only after enough human-reviewed outcomes exist.
+
 ## Interview walkthrough
 
 1. Start in demo mode and explain why honest offline behavior matters.
