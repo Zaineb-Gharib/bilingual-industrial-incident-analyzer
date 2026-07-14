@@ -266,7 +266,10 @@ class DemoProvider:
     @staticmethod
     def _evidence(report: str) -> str:
         compact = report.strip()
-        pieces = re.split(r"(?<=[.!?。！？])\s*", compact, maxsplit=1)
+        # Latin sentence endings require following whitespace, so a decimal such
+        # as "2.8" is not cut into the meaningless evidence quote "2.". Chinese
+        # sentence punctuation does not normally need a following space.
+        pieces = re.split(r"(?<=[.!?])\s+|(?<=[。！？])", compact, maxsplit=1)
         quote = pieces[0] if pieces and pieces[0] else compact
         return quote[:1200]
 

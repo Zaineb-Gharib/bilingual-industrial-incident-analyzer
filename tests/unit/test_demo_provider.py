@@ -41,3 +41,19 @@ def test_demo_provider_preserves_exact_evidence(settings) -> None:
     )
     evidence = IncidentAnalysis.model_validate_json(response.text).evidence[0].quote
     assert evidence in source
+
+
+def test_demo_evidence_does_not_split_decimal_version(settings) -> None:
+    source = "2.8版本在数据库迁移步骤中失败。部署系统停止了发布。"
+    prompt = PromptManager(settings.prompt_dir).render(
+        PromptingStrategy.ZERO_SHOT, source, OutputLanguage.ZH
+    )
+    response = DemoProvider().complete(
+        LLMRequest(
+            messages=prompt.messages,
+            model="demo-v1",
+            metadata={"incident_text": source, "input_language": "zh", "output_language": "zh"},
+        )
+    )
+    evidence = IncidentAnalysis.model_validate_json(response.text).evidence[0].quote
+    assert evidence == "2.8版本在数据库迁移步骤中失败。"
