@@ -45,7 +45,7 @@ service = build_analysis_service(settings, provider)
 batch = BatchService(settings, service, service.repository)
 split = DatasetSplit(split_value)
 
-if st.button("Prepare frozen run manifest", use_container_width=True):
+if st.button("Prepare frozen run manifest", width="stretch"):
     manifest, tasks = batch.prepare(
         records,
         split,
@@ -81,7 +81,7 @@ if manifest and tasks:
         "Run / resume prepared batch",
         type="primary",
         disabled=manifest.provider != "demo" and not live_approved,
-        use_container_width=True,
+        width="stretch",
     ):
         progress = st.progress(0.0, text="Starting…")
 

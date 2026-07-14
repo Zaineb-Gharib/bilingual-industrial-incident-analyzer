@@ -50,7 +50,7 @@ with c2:
 with c3:
     provider, model, settings = provider_controls("analyze")
 
-if st.button("Analyze incident", type="primary", use_container_width=True):
+if st.button("Analyze incident", type="primary", width="stretch"):
     with st.spinner("Analyzing and validating…"):
         st.session_state.last_outcome = analyze_once(
             text, output, strategy, provider, model, settings

@@ -132,7 +132,7 @@ def render_outcome(outcome: AnalysisOutcome, heading: str | None = None) -> None
         with st.expander(f"Validation details ({len(outcome.validation.issues)})", expanded=True):
             st.dataframe(
                 [issue.model_dump(mode="json") for issue in outcome.validation.issues],
-                use_container_width=True,
+                width="stretch",
                 hide_index=True,
             )
     with st.expander("Provenance and raw structured output"):

@@ -95,14 +95,14 @@ if not rate_rows.empty:
         title="Overall automatic metrics",
         labels={"value": "Rate / score", "metric": "Metric"},
     )
-    st.plotly_chart(chart, use_container_width=True)
+    st.plotly_chart(chart, width="stretch")
 
 st.subheader("All metrics and denominators")
 group_options = ["overall", *sorted(set(frame["group"]) - {"overall"})]
 group = st.selectbox("Breakdown", group_options)
 st.dataframe(
     frame[frame["group"] == group],
-    use_container_width=True,
+    width="stretch",
     hide_index=True,
     column_config={"value": st.column_config.NumberColumn(format="%.4f")},
 )

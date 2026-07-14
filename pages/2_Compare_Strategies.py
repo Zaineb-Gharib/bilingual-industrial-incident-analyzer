@@ -23,7 +23,7 @@ with c1:
 with c2:
     provider, model, settings = provider_controls("compare")
 
-if st.button("Run fair comparison", type="primary", use_container_width=True):
+if st.button("Run fair comparison", type="primary", width="stretch"):
     service = build_analysis_service(settings, provider)
     comparison = ComparisonService(service)
     with st.spinner("Running three strategies…"):
@@ -58,7 +58,7 @@ if comparison := st.session_state.get("comparison"):
             }
         )
     st.subheader("Controlled comparison")
-    st.dataframe(summary, use_container_width=True, hide_index=True)
+    st.dataframe(summary, width="stretch", hide_index=True)
     st.caption(
         "A difference on one report does not establish universal superiority; use a frozen dataset and "
         "the evaluation protocol for broader claims."

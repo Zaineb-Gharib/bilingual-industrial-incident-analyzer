@@ -42,6 +42,14 @@ Actual app screenshots are stored in [`screenshots/`](screenshots/) and indexed 
 deterministic provider and is visibly labeled **DEMO MODE**; none is represented as a
 real LLM result.
 
+| Evidence-grounded analysis | Controlled strategy comparison |
+|---|---|
+| ![Evidence and validation warnings from the demo analyzer](screenshots/04_validation_warning_and_evidence_demo.jpg) | ![Three-strategy comparison metrics in demo mode](screenshots/11_strategy_comparison_metrics_demo.jpg) |
+
+| Held-out dashboard with denominators | Claims and safety boundaries |
+|---|---|
+| ![Persisted held-out demo dashboard](screenshots/15_dashboard_chart_denominators_demo.jpg) | ![Project limitations, privacy, and safety](screenshots/17_limitations_privacy_safety_demo.jpg) |
+
 ## Prompt strategies in simple language
 
 | Strategy | Plain-language meaning | Semantic calls per report |

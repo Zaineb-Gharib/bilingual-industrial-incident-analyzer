@@ -13,6 +13,7 @@ claim that any prompt strategy is empirically superior.
 ## Executed held-out demo run
 
 - Run ID: `run-7343b258a9b64a77bc4716bd15d07445`.
+- Source commit at execution: `f88dbfc`.
 - Provider/model: deterministic `demo` / `demo-v1`; **not an LLM**.
 - Scope: 180/180 held-out outputs, 240 base semantic calls, 0 transport retries, 0 JSON
   repairs, 0 terminal failures.
@@ -32,6 +33,14 @@ Latency is local rule-engine time and is not comparable with network inference. 
 manual-review sheet is deliberately unscored. Strategy breakdowns are mechanically similar
 because all three routes ultimately use the same deterministic rules; this run cannot answer
 the LLM research question.
+
+During the later browser verification pass, the demo evidence segmenter exposed a decimal
+boundary defect: a source sentence containing `2.8` could be shortened to `2.`. Commit
+`ce4a0ac` fixes that parser and adds a regression test. The recorded aggregate run above is
+preserved as an immutable historical artifact from `f88dbfc`; its aggregate metrics are not
+silently recomputed. This also illustrates an important limitation: the automatic grounding
+metric checks whether a quote is an exact source substring, not whether the quote is
+informative enough to support the analysis.
 
 ## Frozen design
 
