@@ -1,0 +1,25 @@
+Repair JSON syntax and schema shape only.
+- Do not add incident facts, causes, evidence, or operational details.
+- Preserve valid wording and meaning.
+- If a required string is absent, use the requested-language value for unknown.
+- If evidence is absent or invalid, never invent a quote.
+- Use only allowed enum values.
+- Return exactly one JSON object with no Markdown.
+
+Requested output language: {{OUTPUT_LANGUAGE_NAME}}
+JSON schema:
+{{SCHEMA_JSON}}
+
+Original report, used only to verify verbatim evidence:
+<incident_report>
+{{INCIDENT_TEXT}}
+</incident_report>
+
+Malformed response:
+<malformed_response>
+{{INITIAL_RESPONSE}}
+</malformed_response>
+
+Parser and schema errors:
+{{VALIDATION_WARNINGS}}
+

@@ -1,0 +1,14 @@
+This is the initial stage of a one-cycle self-refinement process.
+Create the best grounded answer now. A deterministic validator will check it later.
+
+Requested output language: {{OUTPUT_LANGUAGE_NAME}}
+
+JSON schema:
+{{SCHEMA_JSON}}
+
+<incident_report>
+{{INCIDENT_TEXT}}
+</incident_report>
+
+Return exactly one complete JSON object and do not mention the later review.
+

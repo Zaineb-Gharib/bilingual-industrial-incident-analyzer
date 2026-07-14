@@ -1,0 +1,202 @@
+[
+  {
+    "scenario_id": "DEV-SRV-001",
+    "input_language": "en",
+    "output_language": "en",
+    "incident_report": "At 09:10, the packaging line monitoring server stopped responding to health checks. Operators can still run the line locally, but the dashboard is unavailable. The cause is not yet known.",
+    "expected_output": {
+      "schema_version": "1.0",
+      "prompt_version": "1.0",
+      "input_language": "en",
+      "output_language": "en",
+      "incident_title": "Server Failure",
+      "incident_category": "server_failure",
+      "severity": "high",
+      "affected_system": "packaging line monitoring server",
+      "main_symptoms": [
+        "health checks receive no response"
+      ],
+      "suspected_cause": {
+        "statement": "unknown",
+        "certainty": "unknown"
+      },
+      "recommended_immediate_actions": [
+        {
+          "action": "Notify platform operations and preserve server logs.",
+          "rationale": "This is a cautious, authorized triage step.",
+          "requires_authorization": true
+        }
+      ],
+      "recommended_long_term_actions": [
+        "Complete a human-led root-cause review and improve approved controls."
+      ],
+      "responsible_team": "platform_operations",
+      "evidence": [
+        {
+          "quote": "At 09:10, the packaging line monitoring server stopped responding to health checks",
+          "supports_fields": [
+            "affected_system",
+            "main_symptoms",
+            "severity"
+          ]
+        }
+      ],
+      "uncertainty_explanation": "Only information stated in the report is included.",
+      "confidence": {
+        "level": "medium",
+        "explanation": "Key symptoms are explicit; missing details remain unknown."
+      },
+      "warnings": []
+    }
+  },
+  {
+    "scenario_id": "DEV-DBF-001",
+    "input_language": "zh",
+    "output_language": "zh",
+    "incident_report": "14:32起，订单服务开始返回数据库连接错误。数据库状态页显示不可用。没有计划内维护，根本原因正在调查中。",
+    "expected_output": {
+      "schema_version": "1.0",
+      "prompt_version": "1.0",
+      "input_language": "zh",
+      "output_language": "zh",
+      "incident_title": "数据库故障",
+      "incident_category": "database_failure",
+      "severity": "high",
+      "affected_system": "订单服务数据库",
+      "main_symptoms": [
+        "连接错误且状态显示不可用"
+      ],
+      "suspected_cause": {
+        "statement": "未知",
+        "certainty": "unknown"
+      },
+      "recommended_immediate_actions": [
+        {
+          "action": "通知数据库运维并保留数据库和应用日志。",
+          "rationale": "这是谨慎且需要授权的初步处置步骤。",
+          "requires_authorization": true
+        }
+      ],
+      "recommended_long_term_actions": [
+        "由人工完成根本原因审查并改进经批准的控制措施。"
+      ],
+      "responsible_team": "database_operations",
+      "evidence": [
+        {
+          "quote": "14:32起，订单服务开始返回数据库连接错误",
+          "supports_fields": [
+            "affected_system",
+            "main_symptoms",
+            "severity"
+          ]
+        }
+      ],
+      "uncertainty_explanation": "仅包含报告中明确陈述的信息。",
+      "confidence": {
+        "level": "medium",
+        "explanation": "主要症状明确，缺失信息保持未知。"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "scenario_id": "DEV-DEP-001",
+    "input_language": "en",
+    "output_language": "zh",
+    "incident_report": "Release 2.8 failed during the database migration step. The deployment system stopped the rollout and kept version 2.7 active. The log reports a migration checksum mismatch.",
+    "expected_output": {
+      "schema_version": "1.0",
+      "prompt_version": "1.0",
+      "input_language": "en",
+      "output_language": "zh",
+      "incident_title": "部署失败",
+      "incident_category": "deployment_failure",
+      "severity": "medium",
+      "affected_system": "版本部署流水线",
+      "main_symptoms": [
+        "迁移步骤失败且发布停止"
+      ],
+      "suspected_cause": {
+        "statement": "迁移校验和不匹配",
+        "certainty": "explicit"
+      },
+      "recommended_immediate_actions": [
+        {
+          "action": "保持发布暂停并审查经批准的部署日志。",
+          "rationale": "这是谨慎且需要授权的初步处置步骤。",
+          "requires_authorization": true
+        }
+      ],
+      "recommended_long_term_actions": [
+        "由人工完成根本原因审查并改进经批准的控制措施。"
+      ],
+      "responsible_team": "release_engineering",
+      "evidence": [
+        {
+          "quote": "Release 2",
+          "supports_fields": [
+            "affected_system",
+            "main_symptoms",
+            "severity"
+          ]
+        }
+      ],
+      "uncertainty_explanation": "仅包含报告中明确陈述的信息。",
+      "confidence": {
+        "level": "medium",
+        "explanation": "主要症状明确，缺失信息保持未知。"
+      },
+      "warnings": []
+    }
+  },
+  {
+    "scenario_id": "DEV-MFG-001",
+    "input_language": "zh",
+    "output_language": "en",
+    "incident_report": "早班期间，压力机振动读数两次超过警告阈值。尚未确认产品缺陷。操作员已暂停压力机并通知维修人员。",
+    "expected_output": {
+      "schema_version": "1.0",
+      "prompt_version": "1.0",
+      "input_language": "zh",
+      "output_language": "en",
+      "incident_title": "Manufacturing Equipment Issue",
+      "incident_category": "manufacturing_equipment_issue",
+      "severity": "high",
+      "affected_system": "industrial press",
+      "main_symptoms": [
+        "vibration exceeded warning threshold"
+      ],
+      "suspected_cause": {
+        "statement": "unknown",
+        "certainty": "unknown"
+      },
+      "recommended_immediate_actions": [
+        {
+          "action": "Keep equipment in its current safe state and notify qualified maintenance.",
+          "rationale": "This is a cautious, authorized triage step.",
+          "requires_authorization": true
+        }
+      ],
+      "recommended_long_term_actions": [
+        "Complete a human-led root-cause review and improve approved controls."
+      ],
+      "responsible_team": "maintenance_engineering",
+      "evidence": [
+        {
+          "quote": "早班期间，压力机振动读数两次超过警告阈值",
+          "supports_fields": [
+            "affected_system",
+            "main_symptoms",
+            "severity"
+          ]
+        }
+      ],
+      "uncertainty_explanation": "Only information stated in the report is included.",
+      "confidence": {
+        "level": "medium",
+        "explanation": "Key symptoms are explicit; missing details remain unknown."
+      },
+      "warnings": []
+    }
+  }
+]

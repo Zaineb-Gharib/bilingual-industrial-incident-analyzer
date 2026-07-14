@@ -1,0 +1,5682 @@
+[
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.7166666666666667,
+    "numerator": 129.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.7166666666666667,
+    "numerator": 129.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.4166666666666667,
+    "numerator": 75.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.4166666666666667,
+    "numerator": 75.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.7166666666666667,
+    "numerator": 129.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 180.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 180.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 180.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 180.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 180.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 360.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.4441310221425536,
+    "numerator": 259.94358398565964,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.1540625000634464,
+    "numerator": 1.1540625000634464,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.582834000349976,
+    "numerator": 2.582834000349976,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 0.8333333333333334,
+    "numerator": 75.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {}
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.7166666666666667,
+    "numerator": 43.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.7166666666666667,
+    "numerator": 43.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.4166666666666667,
+    "numerator": 25.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.4166666666666667,
+    "numerator": 25.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.7166666666666667,
+    "numerator": 43.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 120.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.2299152832990028,
+    "numerator": 73.79491699794016,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.0062915007438278,
+    "numerator": 1.0062915007438278,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.07320899971819,
+    "numerator": 2.07320899971819,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 0.8333333333333334,
+    "numerator": 25.0,
+    "denominator": 30.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "few_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.7166666666666667,
+    "numerator": 43.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.7166666666666667,
+    "numerator": 43.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.4166666666666667,
+    "numerator": 25.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.4166666666666667,
+    "numerator": 25.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.7166666666666667,
+    "numerator": 43.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 120.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.9644542332874455,
+    "numerator": 117.86725399724673,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.7811255002015969,
+    "numerator": 1.7811255002015969,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.6955419998557772,
+    "numerator": 2.6955419998557772,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 0.8333333333333334,
+    "numerator": 25.0,
+    "denominator": 30.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "self_refinement"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.7166666666666667,
+    "numerator": 43.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.7166666666666667,
+    "numerator": 43.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.4166666666666667,
+    "numerator": 25.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.4166666666666667,
+    "numerator": 25.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.7166666666666667,
+    "numerator": 43.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 60.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 120.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.1380235498412123,
+    "numerator": 68.28141299047275,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.0014165000029607,
+    "numerator": 1.0014165000029607,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 1.7949159991985653,
+    "numerator": 1.7949159991985653,
+    "denominator": 60.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 0.8333333333333334,
+    "numerator": 25.0,
+    "denominator": 30.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "strategy": "zero_shot"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.8,
+    "numerator": 72.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.8,
+    "numerator": 72.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.43333333333333335,
+    "numerator": 39.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.43333333333333335,
+    "numerator": 39.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.8,
+    "numerator": 72.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.4741786999366013,
+    "numerator": 132.67608299429412,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.1884374998771818,
+    "numerator": 1.1884374998771818,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.6955419998557772,
+    "numerator": 2.6955419998557772,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": null,
+    "numerator": 0.0,
+    "denominator": 0.0,
+    "exclusions": 90,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.6333333333333333,
+    "numerator": 57.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.6333333333333333,
+    "numerator": 57.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.4,
+    "numerator": 36.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.4,
+    "numerator": 36.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.6333333333333333,
+    "numerator": 57.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.414083344348506,
+    "numerator": 127.26750099136552,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.14364599903638,
+    "numerator": 1.14364599903638,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.3115829990274506,
+    "numerator": 2.3115829990274506,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": null,
+    "numerator": 0.0,
+    "denominator": 0.0,
+    "exclusions": 90,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "input_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.8,
+    "numerator": 72.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.8,
+    "numerator": 72.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.4,
+    "numerator": 36.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.4,
+    "numerator": 36.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.8,
+    "numerator": 72.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.4954977332915103,
+    "numerator": 134.59479599623592,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.2057709991495358,
+    "numerator": 1.2057709991495358,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.862999999706517,
+    "numerator": 2.862999999706517,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 0.84,
+    "numerator": 37.8,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.6333333333333333,
+    "numerator": 57.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.6333333333333333,
+    "numerator": 57.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.43333333333333335,
+    "numerator": 39.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.43333333333333335,
+    "numerator": 39.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.6333333333333333,
+    "numerator": 57.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 90.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 180.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.392764310993597,
+    "numerator": 125.34878798942373,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.1494580003272858,
+    "numerator": 1.1494580003272858,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.568666999650304,
+    "numerator": 2.568666999650304,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 0.8266666666666668,
+    "numerator": 37.2,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "output_language": "zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.8666666666666667,
+    "numerator": 39.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.8666666666666667,
+    "numerator": 39.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.4,
+    "numerator": 18.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.4,
+    "numerator": 18.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.8666666666666667,
+    "numerator": 39.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.4561454222227137,
+    "numerator": 65.52654400002211,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.058290999935707,
+    "numerator": 1.058290999935707,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.6955419998557772,
+    "numerator": 2.6955419998557772,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": null,
+    "numerator": 0.0,
+    "denominator": 0.0,
+    "exclusions": 45,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.7333333333333333,
+    "numerator": 33.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.7333333333333333,
+    "numerator": 33.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.4666666666666667,
+    "numerator": 21.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.4666666666666667,
+    "numerator": 21.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.7333333333333333,
+    "numerator": 33.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.492211977650489,
+    "numerator": 67.149538994272,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.2150839993410045,
+    "numerator": 1.2150839993410045,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.6235000004817266,
+    "numerator": 2.6235000004817266,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": null,
+    "numerator": 0.0,
+    "denominator": 0.0,
+    "exclusions": 45,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "en->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.7333333333333333,
+    "numerator": 33.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.7333333333333333,
+    "numerator": 33.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.4,
+    "numerator": 18.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.4,
+    "numerator": 18.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.7333333333333333,
+    "numerator": 33.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.5348500443603068,
+    "numerator": 69.0682519962138,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.305583000430488,
+    "numerator": 1.305583000430488,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 3.7343340009101667,
+    "numerator": 3.7343340009101667,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": null,
+    "numerator": 0.0,
+    "denominator": 0.0,
+    "exclusions": 45,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->en"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.5333333333333333,
+    "numerator": 24.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.5333333333333333,
+    "numerator": 24.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.4,
+    "numerator": 18.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.4,
+    "numerator": 18.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.5333333333333333,
+    "numerator": 24.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 45.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 90.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.2933166443367048,
+    "numerator": 58.19924899515172,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.0544579999987036,
+    "numerator": 1.0544579999987036,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 1.8824170001607854,
+    "numerator": 1.8824170001607854,
+    "denominator": 45.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": null,
+    "numerator": 0.0,
+    "denominator": 0.0,
+    "exclusions": 45,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "language_path": "zh->zh"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 36.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.8871691112912634,
+    "numerator": 33.96904400324274,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.6277505001198733,
+    "numerator": 1.6277505001198733,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 4.587792000165791,
+    "numerator": 4.587792000165791,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 0.4666666666666667,
+    "numerator": 4.2,
+    "denominator": 9.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "api_outage"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.3333333333333333,
+    "numerator": 6.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.3333333333333333,
+    "numerator": 6.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 36.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.2576272776843527,
+    "numerator": 22.63729099831835,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 0.9989999998651911,
+    "numerator": 0.9989999998651911,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 1.8016670001088642,
+    "numerator": 1.8016670001088642,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 1.0,
+    "numerator": 9.0,
+    "denominator": 9.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "data_pipeline_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 36.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.3182961109931866,
+    "numerator": 23.729329997877358,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.3205414998083143,
+    "numerator": 1.3205414998083143,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.333958000235725,
+    "numerator": 2.333958000235725,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 1.0,
+    "numerator": 9.0,
+    "denominator": 9.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "database_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 36.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.2262429999181121,
+    "numerator": 22.072373998526018,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.092166498892766,
+    "numerator": 1.092166498892766,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 1.8534999999246793,
+    "numerator": 1.8534999999246793,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 1.0,
+    "numerator": 9.0,
+    "denominator": 9.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "deployment_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.3333333333333333,
+    "numerator": 6.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.3333333333333333,
+    "numerator": 6.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.3333333333333333,
+    "numerator": 6.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 36.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.669699222273064,
+    "numerator": 30.05458600091515,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.4171459997669444,
+    "numerator": 1.4171459997669444,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 5.190750000110711,
+    "numerator": 5.190750000110711,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 1.0,
+    "numerator": 9.0,
+    "denominator": 9.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "hardware_malfunction"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.3333333333333333,
+    "numerator": 6.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.3333333333333333,
+    "numerator": 6.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.3333333333333333,
+    "numerator": 6.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.3333333333333333,
+    "numerator": 6.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.3333333333333333,
+    "numerator": 6.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 36.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.2467152777794075,
+    "numerator": 22.440875000029337,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 0.9998539999287459,
+    "numerator": 0.9998539999287459,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 1.9227499997214181,
+    "numerator": 1.9227499997214181,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 0.7333333333333333,
+    "numerator": 6.6,
+    "denominator": 9.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "manufacturing_equipment_issue"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 36.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.352395999876737,
+    "numerator": 24.343127997781266,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.0553749998507556,
+    "numerator": 1.0553749998507556,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.2970419995544944,
+    "numerator": 2.2970419995544944,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 1.0,
+    "numerator": 9.0,
+    "denominator": 9.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "network_interruption"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 36.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.841113444445202,
+    "numerator": 33.140042000013636,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.419687499947031,
+    "numerator": 1.419687499947031,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 3.9324160006799502,
+    "numerator": 3.9324160006799502,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 1.0,
+    "numerator": 9.0,
+    "denominator": 9.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "security_alert"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.6666666666666666,
+    "numerator": 12.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 36.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.2166991110562877,
+    "numerator": 21.90058399901318,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.011437500892498,
+    "numerator": 1.011437500892498,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.153374998670188,
+    "numerator": 2.153374998670188,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 0.4666666666666667,
+    "numerator": 4.2,
+    "denominator": 9.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "server_failure"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_accuracy_conditional",
+    "value": 0.8333333333333334,
+    "numerator": 15.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "category_success_end_to_end",
+    "value": 0.8333333333333334,
+    "numerator": 15.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_accuracy_conditional",
+    "value": 0.8333333333333334,
+    "numerator": 15.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "severity_success_end_to_end",
+    "value": 0.8333333333333334,
+    "numerator": 15.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "responsible_team_exact_match",
+    "value": 0.8333333333333334,
+    "numerator": 15.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "first_pass_json_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "repair_assisted_validity_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_requiring_json_repair",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "required_field_completion_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_grounding_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "evidence_quote_hallucination_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "outputs_with_grounded_evidence_rate",
+    "value": 1.0,
+    "numerator": 18.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "failure_rate",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_precision",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_recall",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "symptom_f1",
+    "value": 0.0,
+    "numerator": 0.0,
+    "denominator": 36.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "average_latency_ms",
+    "value": 1.4253516661079226,
+    "numerator": 25.656329989942606,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "median_latency_ms",
+    "value": 1.0425619993839064,
+    "numerator": 1.0425619993839064,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "p95_latency_ms",
+    "value": 2.568666999650304,
+    "numerator": 2.568666999650304,
+    "denominator": 18.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  },
+  {
+    "run_id": "run-7343b258a9b64a77bc4716bd15d07445",
+    "metric_name": "bilingual_consistency_score",
+    "value": 0.6666666666666666,
+    "numerator": 6.0,
+    "denominator": 9.0,
+    "exclusions": 0,
+    "source": "automatic",
+    "metric_version": "1.0",
+    "group": {
+      "category": "storage_problem"
+    }
+  }
+]

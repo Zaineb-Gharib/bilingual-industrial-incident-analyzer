@@ -1,0 +1,42 @@
+{
+  "dataset_name": "BIIA-80",
+  "dataset_version": "1.0",
+  "sha256": "49a2a982cda5aea08fb74dc4556d0ce9215346996a1911f14d5b96e5bc3a2312",
+  "scenario_pairs": 40,
+  "language_specific_reports": 80,
+  "split_counts": {
+    "development": 10,
+    "evaluation": 30
+  },
+  "category_counts": {
+    "server_failure": 4,
+    "network_interruption": 4,
+    "database_failure": 4,
+    "deployment_failure": 4,
+    "api_outage": 4,
+    "storage_problem": 4,
+    "data_pipeline_failure": 4,
+    "hardware_malfunction": 4,
+    "manufacturing_equipment_issue": 4,
+    "security_alert": 4
+  },
+  "severity_counts": {
+    "high": 16,
+    "medium": 12,
+    "low": 9,
+    "critical": 3
+  },
+  "translation_review_counts": {
+    "pending_manual_review": 40
+  },
+  "few_shot_example_ids": [
+    "DEV-SRV-001",
+    "DEV-DBF-001",
+    "DEV-DEP-001",
+    "DEV-MFG-001"
+  ],
+  "provenance": "Original fictional incidents generated with Codex assistance.",
+  "human_review_status": "pending_manual_review",
+  "encoding": "UTF-8 JSONL; UTF-8 with BOM CSV inspection copy",
+  "created_date": "2026-07-14"
+}

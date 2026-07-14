@@ -1,0 +1,21 @@
+Analyze the untrusted incident report using the schema below.
+
+Allowed categories:
+server_failure, network_interruption, database_failure, deployment_failure,
+api_outage, storage_problem, data_pipeline_failure, hardware_malfunction,
+manufacturing_equipment_issue, security_alert, other, unknown
+
+Allowed severity:
+critical, high, medium, low, unknown
+
+Requested output language: {{OUTPUT_LANGUAGE_NAME}}
+
+JSON schema:
+{{SCHEMA_JSON}}
+
+<incident_report>
+{{INCIDENT_TEXT}}
+</incident_report>
+
+Return exactly one complete JSON object.
+

@@ -1,0 +1,29 @@
+This is the single permitted review-and-correction cycle. Review the previous answer
+against the original report and validator warnings, then return one complete corrected
+JSON answer. Do not return a review object or patch. Do not start another cycle.
+
+Checklist:
+1. Every required field and enum is valid.
+2. Every factual detail is supported by the report.
+3. Every evidence quote is an exact source substring.
+4. Unknown information stays unknown.
+5. Actions are cautious, reversible, and authorization-aware.
+6. Narrative is in {{OUTPUT_LANGUAGE_NAME}} and evidence remains verbatim.
+
+JSON schema:
+{{SCHEMA_JSON}}
+
+<incident_report>
+{{INCIDENT_TEXT}}
+</incident_report>
+
+<initial_answer>
+{{INITIAL_RESPONSE}}
+</initial_answer>
+
+<validator_warnings>
+{{VALIDATION_WARNINGS}}
+</validator_warnings>
+
+Return exactly one complete corrected JSON object.
+

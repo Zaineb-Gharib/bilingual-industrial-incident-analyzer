@@ -1,0 +1,19 @@
+The trusted development examples below demonstrate format and caution. They are not
+facts about the new report. Do not copy their incident details.
+
+<development_examples>
+{{FEW_SHOT_EXAMPLES}}
+</development_examples>
+
+Analyze only the new untrusted incident report.
+Requested output language: {{OUTPUT_LANGUAGE_NAME}}
+
+JSON schema:
+{{SCHEMA_JSON}}
+
+<incident_report>
+{{INCIDENT_TEXT}}
+</incident_report>
+
+Return exactly one complete JSON object.
+

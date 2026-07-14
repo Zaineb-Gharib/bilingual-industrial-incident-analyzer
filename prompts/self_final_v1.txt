@@ -1,0 +1,21 @@
+Produce the only corrected final answer. Verify every change against the original
+report. Return a complete JSON object, not a patch or review.
+
+Requested output language: {{OUTPUT_LANGUAGE_NAME}}
+JSON schema:
+{{SCHEMA_JSON}}
+
+<incident_report>
+{{INCIDENT_TEXT}}
+</incident_report>
+
+<initial_answer>
+{{INITIAL_RESPONSE}}
+</initial_answer>
+
+<review>
+{{SELF_REVIEW}}
+</review>
+
+Return exactly one complete corrected JSON object.
+

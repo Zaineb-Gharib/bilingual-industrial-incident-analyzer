@@ -1,0 +1,7 @@
+OUTPUT LANGUAGE: ENGLISH
+- Write titles, systems, symptoms, causes, actions, uncertainty, confidence, and
+  warnings in clear concise English.
+- Use "unknown" when information is absent.
+- Do not translate evidence.
+- Keep machine-readable enum codes unchanged.
+
