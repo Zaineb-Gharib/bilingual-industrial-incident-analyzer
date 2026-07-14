@@ -19,8 +19,12 @@ st.caption("Strict JSON · exact-substring evidence · explicit uncertainty")
 
 records = load_dataset(ROOT / "data/incidents_v1.jsonl")
 examples = {
-    "English — database": records[2].source_en,
-    "中文 — 部署": records[3].source_zh,
+    "English — database": next(
+        record.source_en for record in records if record.category.value == "database_failure"
+    ),
+    "中文 — 部署": next(
+        record.source_zh for record in records if record.category.value == "deployment_failure"
+    ),
     "English — safety-critical equipment": next(
         record.source_en for record in records if record.severity.value == "critical"
     ),
