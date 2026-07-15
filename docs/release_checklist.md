@@ -36,9 +36,12 @@
 - [x] `gh auth status` shows exactly `Zaineb-Gharib`.
 - [x] No unrelated remote/repository will be overwritten.
 - [x] README clearly says the working release is demo mode, not a live-model experiment.
-- [ ] Public URL opens and README screenshots render.
-- [ ] Suitable repository topics are added.
+- [x] Public repository, README source, and referenced screenshot assets are verified through
+  GitHub's API.
+- [x] Suitable repository topics are added.
 
 This is a publishable **demo-mode portfolio release**. A real-provider credential, live
 experiment, cost approval, and independent human review remain future work; their absence
 does not prevent publication because no live-model performance claim is made.
+
+Published URL: `https://github.com/Zaineb-Gharib/bilingual-industrial-incident-analyzer`
