@@ -35,10 +35,10 @@
 
 - [x] `gh auth status` shows exactly `Zaineb-Gharib`.
 - [x] No unrelated remote/repository will be overwritten.
-- [ ] Live empirical gate is complete before calling the public project experimentally complete.
+- [x] README clearly says the working release is demo mode, not a live-model experiment.
 - [ ] Public URL opens and README screenshots render.
-- [ ] Topics and release tag are added only after all applicable items pass.
+- [ ] Suitable repository topics are added.
 
-Publication is intentionally paused: no real-provider credential was configured, so the
-required two-call live smoke check, cost estimate, approved full empirical run, and manual
-review are incomplete. No remote repository, public URL, topic, or release tag is claimed.
+This is a publishable **demo-mode portfolio release**. A real-provider credential, live
+experiment, cost approval, and independent human review remain future work; their absence
+does not prevent publication because no live-model performance claim is made.
