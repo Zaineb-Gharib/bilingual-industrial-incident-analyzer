@@ -9,6 +9,8 @@ prompting strategies under a reproducible evaluation protocol.
 > review, and explicit approval. The bundled translations are AI-assisted drafts with
 > `pending_manual_review` status.
 
+**Explore the project:** [Demo screenshots](#screenshots) · [Architecture](#architecture) · [Quick start](#quick-start) · [Evaluation](#evaluation) · [Limitations](#limitations)
+
 ## Safety warning
 
 This project is research and decision-support software, not an autonomous incident
